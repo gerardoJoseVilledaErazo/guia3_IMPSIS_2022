@@ -81,16 +81,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="aritmetica/view/suma">Suma</a>
+              <a class="nav-link" href="index.php/aritmetica/view/suma">Suma</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aritmetica/view/resta">Resta</a>
+              <a class="nav-link" href="index.php/aritmetica/view/resta">Resta</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aritmetica/view/multiplicacion">Multiplicacion</a>
+              <a class="nav-link" href="index.php/aritmetica/view/multiplicacion">Multiplicacion</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aritmetica/view/division">Division</a>
+              <a class="nav-link" href="index.php/aritmetica/view/division">Division</a>
             </li>
           </ul>
         </div>

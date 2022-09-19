@@ -4,6 +4,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 	<title>Welcome to CodeIgniter</title>
 
 	<style type="text/css">
@@ -75,16 +81,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="../views/paginas/suma.php">Suma<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="aritmetica/view/suma">Suma<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../views/paginas/resta.php">Resta</a>
+              <a class="nav-link" href="aritmetica/view/resta">Resta</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../views/paginas/multiplicacion.php">Multiplicacion</a>
+              <a class="nav-link" href="aritmetica/view/multiplicacion">Multiplicacion</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../views/paginas/division.php">Division</a>
+              <a class="nav-link" href="aritmetica/view/division">Division</a>
             </li>
           </ul>
         </div>

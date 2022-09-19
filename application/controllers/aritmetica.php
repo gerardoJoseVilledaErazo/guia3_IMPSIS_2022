@@ -8,6 +8,7 @@ class Aritmetica extends CI_Controller
             show_404();
         }
         $data["titulo"] = "GUÍA 3";
+        $this->load->view("plantillas/navbar", $data);
         $this->load->view("plantillas/header", $data);
         $this->load->view("paginas/" . $page, $data);
         $this->load->view("plantillas/footer", $data);
@@ -28,6 +29,7 @@ class Aritmetica extends CI_Controller
                 "resp" => $valor,
             );
         }
+        $this->load->view("plantillas/navbar", $data);
         $this->load->view("plantillas/header", $data);
         $this->load->view("plantillas/respuesta", $data);
         $this->load->view("plantillas/footer", $data);
@@ -48,6 +50,7 @@ class Aritmetica extends CI_Controller
                 "resp" => $valor,
             );
         }
+        $this->load->view("plantillas/navbar", $data);
         $this->load->view("plantillas/header", $data);
         $this->load->view("plantillas/respuesta", $data);
         $this->load->view("plantillas/footer", $data);
@@ -71,6 +74,7 @@ class Aritmetica extends CI_Controller
                 "resp" => $valor,
             );
         }
+        $this->load->view("plantillas/navbar", $data);
         $this->load->view("plantillas/header", $data);
         $this->load->view("plantillas/respuesta", $data);
         $this->load->view("plantillas/footer", $data);
@@ -92,6 +96,7 @@ class Aritmetica extends CI_Controller
                 "resp" => $valor,
             );
         }
+        $this->load->view("plantillas/navbar", $data);
         $this->load->view("plantillas/header", $data);
         $this->load->view("plantillas/respuesta", $data);
         $this->load->view("plantillas/footer", $data);

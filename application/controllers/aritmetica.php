@@ -97,7 +97,7 @@ class Aritmetica extends CI_Controller
                 "resp" => $valor,
             );
         }
-        $this->load->view("plantillas/navbar", $data);
+        $this->load->view("plantillas/navbarDivision", $data);
         $this->load->view("plantillas/header", $data);
         $this->load->view("plantillas/respuesta", $data);
         $this->load->view("plantillas/footer", $data);
